@@ -1,3 +1,6 @@
+:root {
+  --margin-value: 200px;
+}
 *{
   padding: 0;
   margin: 0;
@@ -6,11 +9,11 @@
 header{ 
   height: 5%;
   width: auto;
-  padding: 20px 450px;
+  padding: 20px var(--margin-value);
   background: black; 
 }
 .Icon{
-border-radius: 10em;
+  border-radius: 10em;
   width: 50px;
   height: auto;
   float: left;
@@ -33,13 +36,15 @@ border-radius: 10em;
 }
 .Menu:hover{
   color:lime;
+  cursor: pointer;
 }
 .Advertisement{
-  height: 250px;
+  height: 300px;
   width: auto;
-  padding-left:450px;
+  padding-left:var(--margin-value);
   background: rgba(29,117,222,255); 
   color:white;
+  overflow: auto;
 }
 
 h1{
@@ -57,6 +62,7 @@ button{
 }
 button:hover{
   transform: scale(1.1, 1.1);
+  cursor: pointer;
 }
 .Start{
   width:150px;
@@ -98,8 +104,8 @@ button:hover{
 .PremiumAdvertisment{
   height:970px;
   background: whitesmoke;
-  padding-left: 550px;
-  padding-right: 450px;
+  padding-left: calc(var(--margin-value) + 50px);
+  padding-right: var(--margin-value);
   overflow: auto;
   padding-bottom: 70px;
 }
@@ -133,11 +139,11 @@ button:hover{
 footer{
   display: block;
   height: 500px;
-   width: auto;
-    padding-left: 400px;
-  padding-right: 400px; 
+  width: auto;
+  padding-left: calc(var(--margin-value) + 60px);
+  padding-right: var(--margin-value); 
   background: black; 
-  text-align: center;
+  padding-top:50px;
 }
 ul{
   padding:10px;
@@ -149,4 +155,35 @@ li{
 .DivWithList{
   height: 350px;
   width: auto;
+}
+.SocialNetwork{
+  height:50px;
+  width:auto;
+  margin-left:15px;
+  float:right;
+  background: white;
+  border-radius: 27px;
+  border:none;
+  margin-top:15px;
+}
+.SocialNetwork:hover{
+  background:lime;
+  cursor: pointer;
+}
+.MenuFooter{
+    color:grey;
+    margin-left:40px;
+    font-size:13px;
+}
+.ListWithItemsFooter{
+  list-style: none;
+  color:white;
+}
+.ItemHover:hover{
+  color:lime;
+  cursor: pointer;
+}
+
+.DivWithItemsFooter{
+  float:left;
 }

@@ -1,0 +1,131 @@
+:root {
+  --margin-value: 200px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color:white;
+}
+
+header{ 
+  height: 5%;
+  width: auto;
+  padding: 20px var(--margin-value);
+  background: black; 
+}
+.Icon{
+  border-radius: 10em;
+  width: 50px;
+  height: auto;
+  float: left;
+  background: white;
+}
+.Title{
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+.Menu{
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top:10px;
+  float: right;
+}
+.Menu:hover{
+  color:lime;
+  cursor: pointer;
+}
+.MainPageAppearance{
+  width:auto;
+  height:800px;
+  background: url(https://storage.googleapis.com/pr-newsroom-wp/1/2020/10/circle_burst1-green-nocopy-1920x733.png); background-repeat:no-repeat; background-size:cover;
+  text-align:center;
+  padding-top:160px;
+}
+button{
+  width:180px;
+  padding:10px;
+  border-radius: 5em;
+  background: lime; 
+  font-style: bold;
+  font-size:18px;
+  border:none;
+  margin-left: 600px;
+  color: rgba(29,117,222,255); 
+}
+button:hover{
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+    color: rgba(29,117,222,255); 
+}
+footer{
+  display: block;
+  height: 500px;
+  width: auto;
+  padding-left: calc(var(--margin-value) + 60px);
+  padding-right: var(--margin-value); 
+  background: black; 
+  padding-top:50px;
+}
+ul{
+  padding:10px;
+  list-style: url(images.png);
+}
+li{
+  padding:8px;
+}
+.DivWithList{
+  height: 350px;
+  width: auto;
+}
+.SocialNetwork{
+  height:50px;
+  width:auto;
+  margin-left:15px;
+  float:right;
+  background: white;
+  border-radius: 27px;
+  border:none;
+  margin-top:15px;
+}
+.SocialNetwork:hover{
+  background:lime;
+  cursor: pointer;
+}
+.MenuFooter{
+    color:grey;
+    margin-left:40px;
+    font-size:13px;
+}
+.ListWithItemsFooter{
+  list-style: none;
+  color:white;
+}
+.ItemHover:hover{
+  color:lime;
+  cursor: pointer;
+}
+
+.DivWithItemsFooter{
+  float:left;
+  color:white;
+}
+h1{
+  color:rgba(29,117,222,255);
+  font-style:bold;
+  font-size:120px;
+  padding-left: 600px;
+}
+h3{
+  color: rgb(38, 24, 241);
+  font-style:bold;
+  padding-left: 600px;
+    padding-top:30px; 
+    padding-bottom: 30px
+}
