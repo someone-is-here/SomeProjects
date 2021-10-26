@@ -98,9 +98,8 @@ li{
   cursor: pointer;
 }
 .MenuFooter{
-    color:grey;
-    margin-left:40px;
-    font-size:13px;
+  color:grey;
+  font-size:13px;
 }
 .ListWithItemsFooter{
   list-style: none;
@@ -114,6 +113,8 @@ li{
 .DivWithItemsFooter{
   float:left;
   color:white;
+  font-size: 18px;
+  margin-right:8em;
 }
 h1{
   color:rgba(29,117,222,255);
@@ -125,6 +126,6 @@ h3{
   color: rgb(38, 24, 241);
   font-style:bold;
   padding-left: 600px;
-    padding-top:30px; 
-    padding-bottom: 30px
+  padding-top:30px; 
+  padding-bottom: 30px
 }

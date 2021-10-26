@@ -172,7 +172,6 @@ li{
 }
 .MenuFooter{
     color:grey;
-    margin-left:40px;
     font-size:13px;
 }
 .ListWithItemsFooter{
@@ -186,4 +185,6 @@ li{
 
 .DivWithItemsFooter{
   float:left;
+  font-size: 18px;
+  margin-right:8em;
 }
